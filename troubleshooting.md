@@ -52,3 +52,6 @@ Exception in thread "main" java.lang.IllegalArgumentException: Could not resolve
 [=================================================] 100%?? 
 -> Installed ingest
 ```
+
+### Maven跳过测试打包
+mvn clean install -DskipTests

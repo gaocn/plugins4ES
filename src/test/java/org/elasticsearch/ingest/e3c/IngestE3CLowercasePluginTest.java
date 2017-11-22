@@ -14,6 +14,8 @@ import static org.hamcrest.Matchers.is;
 
 public class IngestE3CLowercasePluginTest extends ESIntegTestCase {
 
+
+
     /**
      *  用于在ES节点启动时，将插件加载到每一个节点中；
      */

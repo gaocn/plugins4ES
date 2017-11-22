@@ -1,7 +1,5 @@
 package org.elasticsearch;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import org.apache.http.HttpHost;
 import org.apache.http.util.EntityUtils;
 import org.apache.logging.log4j.Logger;
@@ -13,8 +11,6 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 
 import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.Matchers.containsString;
