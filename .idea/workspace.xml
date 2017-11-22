@@ -31,24 +31,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a25bd2dc-18a0-4daf-af6b-cae419be1658" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/disk/DiskKeeperAction.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/disk/DiskKeeperPlugin.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/elasticsearch-plugin.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/disk/DiskKeeperActionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/为了ES-520创建插件手册.md" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/rest/e3c/HelloRestAction.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/rest/e3c/HelloRestPlugin.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plugins4ES.iml" afterPath="$PROJECT_DIR$/Plugins4ES.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" afterPath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/elasticsearch/AbstractITCase.java" afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/AbstractITCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/elasticsearch/ingest/e3c/E3CLowercaseProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/ingest/e3c/E3CLowercaseProcessorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/elasticsearch/ingest/e3c/IngestE3CLowercasePluginTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/ingest/e3c/IngestE3CLowercasePluginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/troubleshooting.md" afterPath="$PROJECT_DIR$/troubleshooting.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/ingest/e3c/Ingest范例说明.md" afterPath="$PROJECT_DIR$/Ingest范例说明.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -701,7 +689,7 @@
       <updated>1511232361801</updated>
       <workItem from="1511232366839" duration="11382000" />
       <workItem from="1511248650413" duration="8124000" />
-      <workItem from="1511314405093" duration="13791000" />
+      <workItem from="1511314405093" duration="13882000" />
     </task>
     <task id="LOCAL-00001" summary="Ingest插件，使用Ingest插件实时转换数据">
       <created>1511249270110</created>
@@ -738,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511334499390</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="elasticsearch-5.2.0插件开发入门">
+      <created>1511335259706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511335259706</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -774,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33297000" />
+    <option name="totallyTimeSpent" value="33388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -852,7 +847,8 @@
     <MESSAGE value="创建ES集成测试环境" />
     <MESSAGE value="添加_hello REST EndPoint" />
     <MESSAGE value="添加ingest 插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加ingest 插件" />
+    <MESSAGE value="elasticsearch-5.2.0插件开发入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch-5.2.0插件开发入门" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -870,6 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
