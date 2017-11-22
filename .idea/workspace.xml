@@ -31,12 +31,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a25bd2dc-18a0-4daf-af6b-cae419be1658" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/rest/e3c/HelloRestAction.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/disk/DiskKeeperAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/elasticsearch-plugin.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/org/elasticsearch/disk/DiskKeeperActionTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/disk/DiskKeeperPlugin.java" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/rest/e3c/HelloRestPlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" afterPath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,11 +45,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
               <caret line="50" column="55" lean-forward="false" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin-descriptor.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -103,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/disk/DiskKeeper.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/ingest/e3c/E3CLowercaseProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/disk/DiskKeeperPlugin.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" />
         <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/ingest/e3c/IngestE3CLowercasePluginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/disk/DiskKeeperActionTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/elasticsearch-plugin.yml" />
@@ -111,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/rest/e3c/HelloRestAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/disk/DiskKeeperAction.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" />
       </list>
     </option>
   </component>
@@ -643,7 +649,7 @@
       <updated>1511232361801</updated>
       <workItem from="1511232366839" duration="11382000" />
       <workItem from="1511248650413" duration="8124000" />
-      <workItem from="1511314405093" duration="14299000" />
+      <workItem from="1511314405093" duration="14371000" />
     </task>
     <task id="LOCAL-00001" summary="Ingest插件，使用Ingest插件实时转换数据">
       <created>1511249270110</created>
@@ -687,7 +693,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511335259706</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ES-520插件入门: REST 插件和Ingest插件">
+      <created>1511335728534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511335728534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -723,7 +736,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33805000" />
+    <option name="totallyTimeSpent" value="33877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -802,7 +815,8 @@
     <MESSAGE value="添加_hello REST EndPoint" />
     <MESSAGE value="添加ingest 插件" />
     <MESSAGE value="elasticsearch-5.2.0插件开发入门" />
-    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch-5.2.0插件开发入门" />
+    <MESSAGE value="ES-520插件入门: REST 插件和Ingest插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES-520插件入门: REST 插件和Ingest插件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1159,14 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1234,6 +1240,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-77">
           <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
           <folding />
         </state>
       </provider>
